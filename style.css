@@ -1,0 +1,60 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.container{
+    
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(226, 236, 130);
+    
+}
+.cell{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 2px solid black;
+
+width: 100px;
+height: 100px;
+
+}
+span{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-size: 1.5rem;
+}
+
+img{
+width: 50px;
+}
+
+.last{
+    font-size: 2rem;
+    position: relative;
+    display: none;
+    color: blue;
+    margin-bottom: 2rem;
+}
+
+button{
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding: 1rem;
+
+}
+ 
