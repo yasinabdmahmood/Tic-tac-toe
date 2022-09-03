@@ -46,7 +46,7 @@ width: 50px;
 .last{
     font-size: 2rem;
     position: relative;
-    display: none;
+    visibility: hidden;
     color: blue;
     margin-bottom: 2rem;
 }

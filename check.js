@@ -16,7 +16,7 @@ const check=(arr,p)=>{
 
      let announcement = document.querySelector('.last');
      document.querySelector('.last ').innerHTML=`Player ${p==='O'? '1':'2'} has won`
-     announcement.style.display='block';
+     announcement.style.visibility='visible';
  }
 }
 
