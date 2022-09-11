@@ -11,7 +11,7 @@ const add=(e)=>{
         circle.setAttribute('src','./images/circle.svg');
         e.target.appendChild(circle);
         arr[index-1]='O';
-        check(arr,'O')
+        check(arr,'O');
         
        
      }
